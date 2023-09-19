@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import v4SideBar from './sidebar/v4.js'
+import v3SideBar from './sidebar/v3.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,33 +9,20 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '入门指南', link: '/markdown-examples' },
-      { text: 'API手册', link: '/markdown-examples' },
+      { text: '📕入门指南', link: '/v4/guide/overview' },
+      { text: 'API手册', link: '/v4/api/overview' },
       {
-        text: '版本',
+        text: '历史版本(v3)',
         items: [
-          { text: 'v4', link: '/v4/guide/', activeMatch: '/v4/' },
-          { text: 'v3', link: '/v3/guide/', activeMatch: '/v3/' }
+          { text: '入门指南', link: '/v3/guide/overview', activeMatch: '/v3/guide/' },
+          { text: 'API手册', link: '/v3/api/overview', activeMatch: '/v3/api/' }
         ]
       }
     ],
 
     sidebar: {
-      '/v4/guide/': [{
-        text: 'Examples V4',
-        items: [
-          { text: 'overview V4', link: '/v4/guide/overview' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }],
-      '/v3/guide/': [{
-        text: 'Examples V3',
-        items: [
-          { text: 'Markdown Examples V3', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }]
+      ...v4SideBar,
+      ...v3SideBar,
     },
 
     socialLinks: [

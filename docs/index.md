@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "QueryList"
-  text: "QueryList"
-  tagline: My great project tagline
+  text: ""
+  tagline: "优雅的渐进式PHPDOM解析框架，让DOM解析更简单一点。"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 入门指南
+      link: /v4/guide/overview
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 项目地址
+      link: https://github.com/jae-jae/querylist
 
 features:
   - title: Feature A

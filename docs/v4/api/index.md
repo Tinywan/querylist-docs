@@ -1,40 +1,40 @@
 - ## Get Started
-    - [API手册](/docs/api/{{version}}/overview)
-    - [phpQuery选择器](/docs/api/{{version}}/phpQuery)
-    - [jQuery选择器](/docs/api/{{version}}/jQuery)
+    - [API手册](/v4/api/overview)
+    - [phpQuery选择器](/v4/api/phpQuery)
+    - [jQuery选择器](/v4/api/jQuery)
 
 - ## 基础API
 
-    - [html](/docs/api/{{version}}/html)
-    - [getHtml](/docs/api/{{version}}/getHtml)
-    - [rules](/docs/api/{{version}}/rules)
-    - [range](/docs/api/{{version}}/range)
-    - [removeHead](/docs/api/{{version}}/removeHead)
-    - [query](/docs/api/{{version}}/query)
-    - [getData](/docs/api/{{version}}/getData)
-    - [queryData](/docs/api/{{version}}/queryData)`
-    - [getInstance](/docs/api/{{version}}/getInstance)
-    - [destruct](/docs/api/{{version}}/destruct)
-    - [destructDocuments](/docs/api/{{version}}/destructDocuments)
-    - [pipe](/docs/api/{{version}}/pipe)
+    - [html](/v4/api/html)
+    - [getHtml](/v4/api/getHtml)
+    - [rules](/v4/api/rules)
+    - [range](/v4/api/range)
+    - [removeHead](/v4/api/removeHead)
+    - [query](/v4/api/query)
+    - [getData](/v4/api/getData)
+    - [queryData](/v4/api/queryData)`
+    - [getInstance](/v4/api/getInstance)
+    - [destruct](/v4/api/destruct)
+    - [destructDocuments](/v4/api/destructDocuments)
+    - [pipe](/v4/api/pipe)
 
 - ## 特殊API
-  - [find](/docs/api/{{version}}/find)
-  - [Elements对象介绍](/docs/api/{{version}}/Elements-introduce)
-  - [Elements class](/docs/api/{{version}}/Elements-class)
+  - [find](/v4/api/find)
+  - [Elements对象介绍](/v4/api/Elements-introduce)
+  - [Elements class](/v4/api/Elements-class)
 
 - ## 高级API
-  - [setData](/docs/api/{{version}}/setData)
-  - [bind](/docs/api/{{version}}/bind)
-  - [use](/docs/api/{{version}}/use)
-  - [config](/docs/api/{{version}}/config)
+  - [setData](/v4/api/setData)
+  - [bind](/v4/api/bind)
+  - [use](/v4/api/use)
+  - [config](/v4/api/config)
 
 - ## 默认插件
-  - [get](/docs/api/{{version}}/get)
-  - [post](/docs/api/{{version}}/post)
-  - [multiGet](/docs/api/{{version}}/multi-get)
-  - [multiPost](/docs/api/{{version}}/multi-post)
-  - [encoding](/docs/api/{{version}}/encoding)
+  - [get](/v4/api/get)
+  - [post](/v4/api/post)
+  - [multiGet](/v4/api/multi-get)
+  - [multiPost](/v4/api/multi-post)
+  - [encoding](/v4/api/encoding)
 
 
 

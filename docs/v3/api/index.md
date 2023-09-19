@@ -1,15 +1,15 @@
 - ## Get Started
-    - [API手册](/docs/api/{{version}}/overview)
-    - [QueryList选择器](/docs/api/{{version}}/jQuery)
+    - [API手册](/v3/api/overview)
+    - [QueryList选择器](/v3/api/jQuery)
 - ## API
-    - [Query](/docs/api/{{version}}/Query)
-    - [setLog](/docs/api/{{version}}/setLog)
-    - [setQuery](/docs/api/{{version}}/setQuery)
-    - [getData](/docs/api/{{version}}/getData)
-    - [getHtml](/docs/api/{{version}}/getHtml)
-    - [run](/docs/api/{{version}}/run)
-    - [getInstance](/docs/api/{{version}}/getInstance)
-    - [data、html](/docs/api/{{version}}/data_html)
+    - [Query](/v3/api/Query)
+    - [setLog](/v3/api/setLog)
+    - [setQuery](/v3/api/setQuery)
+    - [getData](/v3/api/getData)
+    - [getHtml](/v3/api/getHtml)
+    - [run](/v3/api/run)
+    - [getInstance](/v3/api/getInstance)
+    - [data、html](/v3/api/data_html)
 
 
 

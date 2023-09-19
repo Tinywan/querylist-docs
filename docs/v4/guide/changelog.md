@@ -1,7 +1,7 @@
-<a name="anchor">
+
 # Changelog
 
-- [Changelog](#anchor)
+
 
 ## 4.2.5
 ### Added

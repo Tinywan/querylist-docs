@@ -3,12 +3,12 @@
 HTTP客户端用于抓取网页HTML源码。
 
 ---
-- [用法](#anchor1)
+
 - [自定义HTTP Header](#anchor2)
-- [获取抓取到的HTML](#anchor3)
-- [捕获HTTP异常](#anchor4)
-- [获取HTTP响应头等信息](#anchor5)
-- [自定义HTTP客户端](#anchor6)
+
+
+
+
 
 QueuryList推荐使用`GuzzleHttp`来作为HTTP客户端，它功能强大、使用简单、支持异步和并发请求，GuzzleHttp使用文档：[http://guzzle-cn.readthedocs.io/zh_CN/latest/ ](http://guzzle-cn.readthedocs.io/zh_CN/latest/) 。当然，需要强调的是QueryList并不依赖任何一个HTTP客户端，你可以根据自己的喜好来选择HTTP客户端，如使用:`file_get_contents`、`curl`或其它第三方HTTP客户端包。
 
@@ -41,7 +41,7 @@ $data = QueryList::html($html)->find('h3')->texts();
 
 ---
 
-<a name="anchor1">
+
 ### 用法
 
 `get()`方法和`post()`方法用法和参数完全一致，且共享cookie。
@@ -62,7 +62,7 @@ $ql = QueryList::post('http://httpbin.org/post',[
     'params2' => 'somevalue'
 ]);
 ```
-<a name="anchor2">
+
 #### 自定义HTTP Header
 
 
@@ -283,7 +283,7 @@ $ql2 = QueryList::get('http://xxx.com/admin/page',[],[
 ]);
 ```
 
-<a name="anchor3">
+
 
 #### 获取抓取到的HTML
 
@@ -296,7 +296,7 @@ $ql = QueryList::get('http://httpbin.org/get?param1=testvalue');
 echo $ql->getHtml();
 ```
 
-<a name="anchor4">
+
 ## 捕获HTTP异常
 
 如果遇到HTTP错误，如:404,500等，QueryList就会抛出HTTP异常，并终止程序。如果你不想出现HTTP异常时程序终止，可以自己捕获异常并处理，更多关于HTTP异常的细节：<http://guzzle-cn.readthedocs.io/zh_CN/latest/quickstart.html#id13>。
@@ -317,7 +317,7 @@ try{
 
 > {primary} 相关专题：[忽略HTTP异常](ignore-http-error)
 
-<a name="anchor5">
+
 
 ## 获取HTTP响应头等信息
 
@@ -336,7 +336,7 @@ $headers = $response->getHeaders();
 print_r($headers);
 ```
 
-<a name="anchor6">
+
 ## 自定义HTTP客户端
 
 `GuzzleHttp`是一款功能非常强大的HTTP客户端，你想要的功能它几乎都有；但如果你还是想使用自己熟悉的HTTP客户端如:`curl`，那也是可以的：

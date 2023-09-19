@@ -13,7 +13,7 @@
 
 ## 其它问题
 
-<a name="anchor1">
+
 ## Document with ID '...' isn't loaded. Use phpQuery::newDocument($html) or phpQuery::newDocumentFile($file) first.
 
 此类错误一般是因为脚本中涉及大量的QueryList对象调用，而又没有及时释放资源的内存占用，导致内存溢出引起的，解决方法就是尽量重用同一个QueryList对象并及时释放资源的内存占用：
@@ -57,7 +57,7 @@
   ```
   
 
-<a name="anchor2">
+
 ## DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';'
 
 这是`DOMDocument`类`loadHTML`方法产生的警告信息，当DOM解析的页面HTML格式是非标准化格式时会产生，可以在代码中加入下列代码来屏蔽输出此类警告信息:

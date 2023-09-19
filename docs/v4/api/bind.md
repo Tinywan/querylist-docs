@@ -14,7 +14,7 @@ QueryList功能扩展,绑定一个功能函数到QueryList对象，轻量级功�
 
 > {primary} 用该方法扩展的功能只有当前的QueryList对象可以使用，如果想要全局所有QueryList均可使用，可以查看`config()`方法文档。
 
-<a name="anchor">
+
 ## 用法
 
 ---

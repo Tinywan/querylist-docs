@@ -2,8 +2,8 @@
 
 ---
 
-- [use](#anchor1)
-- [bind](#anchor2)
+
+
 
 静态方法,全局配置QueryList,返回值为`QL\Config`对象.
 
@@ -15,7 +15,7 @@
 - **use()** 全局安装插件
 - **bind()** 全局功能扩展
 
-<a name="anchor1">
+
 ### Config use($plugins,...$opt)
 
 用法同QueryList的use方法,全局安装插件后，所有QueryList对象均可使用这些插件。
@@ -30,7 +30,7 @@ QueryList::config()->use(My\MyPlugin::class)->use([
 ]);
 
 ```
-<a name="anchor2">
+
 ### Config bind(string $name, Closure $provider)
 用法同QueryList的bind方法，全局功能扩展，所有QueryList对象均可使用扩展的方法。
 

@@ -2,7 +2,7 @@
 
 ---
 
-- [用法](#anchor)
+
 
 基于`GuzzleHttp`的并发POST请求。
 
@@ -14,7 +14,7 @@
 - `error()`: HTTP error回调函数
 - `send()`: 发送请求
 
-<a name="anchor">
+
 ## 用法
 
 用法同`multiGet()`.

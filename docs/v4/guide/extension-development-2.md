@@ -43,7 +43,7 @@ QueryList-AbsoluteUrl
 
 最终效果参考：https://github.com/jae-jae/QueryList-AbsoluteUrl
 
-<a name="anchor1">
+
 ## 第一步：创建Composer包，安装依赖
 
 命令行：
@@ -64,7 +64,7 @@ $ composer require jaeger/querylist --dev
 $ composer require pguardiario/phpuri
 ```
 
-<a name="anchor2">
+
 ## 第二步：创建插件，代码逻辑开发
 
 安装好依赖之后，就可以创建插件的主文件了，由于这个插件比较简单，所以就一个PHP文件:
@@ -162,7 +162,7 @@ public static function install(QueryList $queryList, ...$opt)
 
 > {warning} 修改`composer.json`文件后，要执行一下`composer update`命令来更新一下自动加载文件，否则修改不会生效。
 
-<a name="anchor3">
+
 ## 第三步：测试插件
 
 可以直接在插件项目目录新建一个`test.php`文件来测试一下插件:
@@ -186,7 +186,7 @@ public static function install(QueryList $queryList, ...$opt)
 
 在命令行下运行`php test.php`看输出结果是否符合预期，如果发现问题，可以继续修改插件，然后继续测试，直到完全正常工作为止。
 
-<a name="anchor4">
+
 ## 第四步：发布插件到Packagist
 
 发布插件到`Packagist`的目的是为了方便其它人可以方便的通过Composer安装并使用你的插件，你需要做以下3步：

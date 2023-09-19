@@ -4,7 +4,7 @@
 
 ---
 
-- [用法](#anchor)
+
 
 释放所有文档资源，销毁内存占用，一般是在使用单列模式时，你需要调用此方法来手动释放资源占用。在非单列模式下，在使用完当前QueryList对象后，你应该调用`destruct()`方法来销毁当前QueryList对象。
 
@@ -12,7 +12,7 @@
 
 **注意**：此方法并不是销毁QueryList对象，只是销毁phpQuery Document占用的内存，所以调用此方法后，原先设置过HTML的QueryList对象都会丢失设置的HTML，需要重新调用`html`或者`get`方法设置HTML.
 
-<a name="anchor">
+
 ## 用法
 
 ---

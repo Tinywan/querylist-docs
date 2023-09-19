@@ -22,7 +22,7 @@ Selectors are the heart of jQuery-like interface. Most of [CSS Level 3](http://w
 pq(".class ul > li[rel='foo']:first:has(a)")->appendTo('.append-target-wrapper div')->...
 ```
 
-<a name="Basics.md">
+
 ## Basics
   * **[#id](http://docs.jquery.com/Selectors/id)** Matches a single element with the given id attribute.
   * **[element](http://docs.jquery.com/Selectors/element)** Matches all elements with the given name.
@@ -30,14 +30,14 @@ pq(".class ul > li[rel='foo']:first:has(a)")->appendTo('.append-target-wrapper d
   * **[\*](http://docs.jquery.com/Selectors/all)** Matches all elements.
   * **[selector1, selector2, selectorN](http://docs.jquery.com/Selectors/multiple)** Matches the combined results of all the specified selectors.
 
-<a name="Hierarchy.md">
+
 ## Hierarchy
   * **[ancestor descendant](http://docs.jquery.com/Selectors/descendant)** Matches all descendant elements specified by "descendant" of elements specified by "ancestor".
   * **[parent > child](http://docs.jquery.com/Selectors/child)** Matches all child elements specified by "child" of elements specified by "parent".
   * **[prev + next](http://docs.jquery.com/Selectors/next)** Matches all next elements specified by "next" that are next to elements specified by "prev".
   * **[prev ~ siblings](http://docs.jquery.com/Selectors/siblings)** Matches all sibling elements after the "prev" element that match the filtering "siblings" selector.
 
-<a name="Basic_Filters.md">
+
 ## Basic Filters
   * **[:first](http://docs.jquery.com/Selectors/first)** Matches the first selected element.
   * **[:last](http://docs.jquery.com/Selectors/last)** Matches the last selected element.
@@ -50,18 +50,18 @@ pq(".class ul > li[rel='foo']:first:has(a)")->appendTo('.append-target-wrapper d
   * **[:header](http://docs.jquery.com/Selectors/header)** Matches all elements that are headers, like h1, h2, h3 and so on.
   * **[:animated](http://docs.jquery.com/Selectors/animated)** Matches all elements that are currently being animated.
 
-<a name="Content_Filters.md">
+
 ## Content Filters 
   * **[:contains(text)](http://docs.jquery.com/Selectors/contains)** Matches elements which contain the given text.
   * **[:empty](http://docs.jquery.com/Selectors/empty)** Matches all elements that have no children (including text nodes).
   * **[:has(selector)](http://docs.jquery.com/Selectors/has)** Matches elements which contain at least one element that matches the specified selector.
   * **[:parent](http://docs.jquery.com/Selectors/parent)** Matches all elements that are parents - they have child elements, including text.
 
-<a name="Visibility_Filters.md">
+
 ## Visibility Filters 
 _none_
 
-<a name="Attribute_Filters.md">
+
 ## Attribute Filters 
   * **[[attribute](http://docs.jquery.com/Selectors/attributeHas)]** Matches elements that have the specified attribute.
   * **[[attribute=value](http://docs.jquery.com/Selectors/attributeEquals)]** Matches elements that have the specified attribute with a certain value.
@@ -71,14 +71,14 @@ _none_
   * **[[attribute\*=value](http://docs.jquery.com/Selectors/attributeContains)]** Matches elements that have the specified attribute and it contains a certain value.
   * **[[selector1](http://docs.jquery.com/Selectors/attributeMultiple)[selector2](selector2.md)[selectorN](selectorN.md)]** Matches elements that have the specified attribute and it contains a certain value.
 
-<a name="Child_Filters.md">
+
 ## Child Filters 
   * **[:nth-child(index/even/odd/equation)](http://docs.jquery.com/Selectors/nthChild)** Matches all elements that are the nth-child of their parent or that are the parent's even or odd children.
   * **[:first-child](http://docs.jquery.com/Selectors/firstChild)** Matches all elements that are the first child of their parent.
   * **[:last-child](http://docs.jquery.com/Selectors/lastChild)** Matches all elements that are the last child of their parent.
   * **[:only-child](http://docs.jquery.com/Selectors/onlyChild)** Matches all elements that are the only child of their parent.
 
-<a name="Forms.md">
+
 ## Forms 
   * **[:input](http://docs.jquery.com/Selectors/input)** Matches all input, textarea, select and button elements.
   * **[:text](http://docs.jquery.com/Selectors/text)** Matches all input elements of type text.
@@ -92,7 +92,7 @@ _none_
   * **[:file](http://docs.jquery.com/Selectors/file)** Matches all input elements of type file.
   * **[:hidden](http://docs.jquery.com/Selectors/hidden)** Matches all elements that are hidden, or input elements of type "hidden".
 
-<a name="Form_Filters.md">
+
 ## Form Filters 
   * **[:enabled](http://docs.jquery.com/Selectors/enabled)** Matches all elements that are enabled.
   * **[:disabled](http://docs.jquery.com/Selectors/disabled)** Matches all elements that are disabled.

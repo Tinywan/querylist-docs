@@ -4,12 +4,12 @@ QueryList无框架依赖，可以灵活的嵌入到任何项目中去。
 
 ---
 
-- [在使用Composer管理的项目中安装](#anchor1)
-- [在非Composer管理的项目中安装](#anchor2)
+
+
 
 QueryList可以集成到任何框架中去使用，无需做任何修改，直接使用Composer安装到项目中去即可。
 
-<a name="anchor1">
+
 ## 在使用Composer管理的项目中安装
 
 如果项目框架本身就是使用Composer来管理包的话，直接在项目根目录执行Composer安装命令后，即可在项目控制器中调用QueryList来使用，这种框架有：`Laravel`、`ThinkPHP5`等。
@@ -37,7 +37,7 @@ class Index
     }
 }
 ```
-<a name="anchor2">
+
 ## 在非Composer管理的项目中安装
 
 有些项目框架并没有使用Composer来管理包，如：`ThinkPHP3`，在这种项目中也可以使用Composer来安装QueryList，安装需要分二步：

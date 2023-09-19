@@ -4,14 +4,14 @@
 
 ---
 
-- [属性操作](#anchor1)
-- [遍历操作](#anchor2)
-- [DOM操纵](#anchor3)
-- [form表单序列化](#anchor4)
+
+
+
+
 
 这些API方法与jQuery DOM操作API方法完全一致，具体可以查看jQuery手册
 
-<a name="anchor1">
+
 ## 属性操作
 ### Example
 ```php
@@ -47,7 +47,7 @@ QueryList::html($html)->find('a')->attr('href', 'newVal')->removeClass('classNam
 
 Read more at [Attributes](http://docs.jquery.com/Attributes) section on [jQuery Documentation Site](http://docs.jquery.com/).
 
-<a name="anchor2">
+
 ## 遍历操作
 ### Example
 ```php
@@ -84,7 +84,7 @@ QueryList::html($html)->find('div > p')->add('div > ul')->filter(':has(a)')->fin
 
 Read more at [Traversing](http://docs.jquery.com/Traversing) section on [jQuery Documentation Site](http://docs.jquery.com/).
 
-<a name="anchor3">
+
 ## DOM操纵
 ### Example
 ```php
@@ -132,7 +132,7 @@ QueryList::html($html)->find('div.old')->replaceWith( $ql->find('div.new')->clon
 
 Read more at [Manipulation](http://docs.jquery.com/Manipulation) section on [jQuery Documentation Site](http://docs.jquery.com/).
 
-<a name="anchor4">
+
 ## form表单序列化
 
  * **[serialize](http://docs.jquery.com/Ajax/serialize)**[()](http://docs.jquery.com/Ajax/serialize) Serializes a set of input elements into a string of data. This will serialize all given elements.

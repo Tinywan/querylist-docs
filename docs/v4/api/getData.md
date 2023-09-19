@@ -2,7 +2,7 @@
 
 ---
 
-- [用法](#anchor)
+
 
 
 获取DOM解析结果数据，需要先执行`query()`方法。
@@ -17,7 +17,7 @@
 
 > Collection文档：[https://d.laravel-china.org/docs/5.4/collections](https://d.laravel-china.org/docs/5.4/collections)
 
-<a name="anchor">
+
 ## 用法
 
 ---

@@ -3,13 +3,13 @@
 学习DOM解析单个网页元素的属性值或内容。
 
 ___
-- [获取单个元素的单个属性](#anchor1)
-- [获取多个元素的单个属性](#anchor2)
+
+
 - [实战 - DOM解析IT之家文章页](#anchor3)
 
 QueryList有个`find()`方法，用于DOM解析单个元素，它通过**jQuery选择器**选择DOM元素，用法同jQuery的`find()`方法。
 
-<a name="anchor1">
+
 ## 获取单个元素的单个属性
 
 如果你有使用过jQuery的经验，就会发现下面的写法与jQuery的写法是一致的。
@@ -183,7 +183,7 @@ Array
 
 ---
 
-<a name="anchor2">
+
 ## 获取多个元素的单个属性
 
 `map()`方法用于遍历多个元素的集合，`find()`方法返回的其实是多个元素的集合，这一点与jQuery也是一致的。
@@ -258,7 +258,7 @@ Array
 
 ---
 
-<a name="anchor3">
+
 ## 实战 - DOM解析IT之家文章页
 
 ![img](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LAmB2ogFw3OY-4SNqia%2F-LBq1eOXjQbjQP4kTaLm%2F-LBq3VhFcPGgi68ss4Ly%2FWX20180506-232749.png?alt=media&token=43388ddb-9254-4e76-b1cd-f3fa1d1e96dd)

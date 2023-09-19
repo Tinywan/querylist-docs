@@ -3,15 +3,10 @@
 学习如何批量DOM解析数据。
 
 ---
-- [用法](#anchor1)
-- [queryData() 语法糖](#anchor2)
-- [列表DOM解析](#anchor3)
-- [关于方法的调用顺序](#anchor4)
-
 
 列表DOM解析才是QueryList的核心功能，这里主要涉及到两个函数的用法:`rules()`和`range()` 。
 
-<a name="anchor1">
+
 ## 用法
 
 上一章节的实战部分有讲解到DOM解析IT之家的文章页，代码如下：
@@ -90,7 +85,7 @@ $rules = [
 
 DOM解析结果与前面的代码完全相同，注意这里的DOM解析结果是一个二维数组。
 
-<a name="anchor2">
+
 ### queryData() 语法糖
 可能你会觉的列表DOM解析的语法有一点点繁琐，如:
 ```php
@@ -106,7 +101,7 @@ print_r($rt);
 
 > {primary} QueryList之所以这样设计，是为了方便在各个环节挂载插件，如:`query()->downloadImage()->getData()`,获取数据之前 ，先用保存图片的插件把图片下载到本地并替换图片路径为本地路径。
 
-<a name="anchor3">
+
 ### 列表DOM解析
 
 前面只说到DOM解析文章页内容，通常情况下我们会先DOM解析列表页，然后再循环DOM解析列表中的每篇文章，DOM解析列表需要用到`range()`函数来配合`rules()`函数。
@@ -253,7 +248,7 @@ Array
 
 就这样我们利用QueryList很轻松就DOM解析到了IT之家的文章列表以及文章内容😀。
 
-<a name="anchor4">
+
 ### 关于方法的调用顺序
 
 `get()`、`rules()`和`range()` 这几个方法都属于QueryList属性设置方法，所以调用顺序可以随意，所以下面这几种写法都是等价的：

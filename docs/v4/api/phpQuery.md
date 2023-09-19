@@ -4,16 +4,6 @@
 
 ---
 
-- [Basics](#Basics.md)
-- [Hierarchy](#Hierarchy.md)
-- [Basic Filters](#Basic_Filters.md)
-- [Content Filters](#Content_Filters.md)
-- [Visibility Filters](#Visibility_Filters.md)
-- [Attribute Filters](#Attribute_Filters.md)
-- [Child Filters](#Child_Filters.md)
-- [Forms](#Forms.md)
-- [Form Filters](#Form_Filters.md)
-
 Selectors are the heart of jQuery-like interface. Most of [CSS Level 3](http://www.w3.org/TR/2005/WD-css3-selectors-20051215/) syntax is implemented (in state same as in jQuery).
 
 ## Example
@@ -69,7 +59,7 @@ _none_
   * **[[attribute^=value](http://docs.jquery.com/Selectors/attributeStartsWith)]** Matches elements that have the specified attribute and it starts with a certain value.
   * **[[attribute$=value](http://docs.jquery.com/Selectors/attributeEndsWith)]** Matches elements that have the specified attribute and it ends with a certain value.
   * **[[attribute\*=value](http://docs.jquery.com/Selectors/attributeContains)]** Matches elements that have the specified attribute and it contains a certain value.
-  * **[[selector1](http://docs.jquery.com/Selectors/attributeMultiple)[selector2](selector2.md)[selectorN](selectorN.md)]** Matches elements that have the specified attribute and it contains a certain value.
+  * **[[selector1](http://docs.jquery.com/Selectors/attributeMultiple)]** Matches elements that have the specified attribute and it contains a certain value.
 
 
 ## Child Filters 

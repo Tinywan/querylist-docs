@@ -4,8 +4,8 @@
 
 ---
 
-- [Document with ID '...' isn't loaded](#anchor1)
-- [DOMDocument::loadHTML():...](#anchor2)
+
+
 
 ## 安装问题
 

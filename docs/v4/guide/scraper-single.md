@@ -5,7 +5,7 @@
 ___
 
 
-- [实战 - DOM解析IT之家文章页](#anchor3)
+
 
 QueryList有个`find()`方法，用于DOM解析单个元素，它通过**jQuery选择器**选择DOM元素，用法同jQuery的`find()`方法。
 

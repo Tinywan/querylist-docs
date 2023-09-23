@@ -5,7 +5,7 @@ import v3SideBar from './sidebar/v3.js'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "QueryList",
-  description: "QueryList",
+  description: "优雅的渐进式PHPDOM解析框架",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

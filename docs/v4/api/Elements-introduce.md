@@ -2,7 +2,7 @@
 
 ---
 
-- ](#anchor)
+
 
 该对象拥有所有phpQuery的方法，也就是说拥有几乎所有与jQuery操作DOM完全相同的API。
 

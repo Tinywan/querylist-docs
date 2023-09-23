@@ -9,13 +9,18 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '📕入门指南', link: '/v4/guide/overview' },
-      { text: 'API手册', link: '/v4/api/overview' },
+      { text: '🚀入门指南', link: '/v4/guide/overview' },
+      { text: '📕API手册', link: '/v4/api/overview' },
       {
-        text: '历史版本(v3)',
+        text: '历史版本',
         items: [
-          { text: '入门指南', link: '/v3/guide/overview', activeMatch: '/v3/guide/' },
-          { text: 'API手册', link: '/v3/api/overview', activeMatch: '/v3/api/' }
+          {
+            text: "V3",
+            items: [
+              { text: '入门指南', link: '/v3/guide/overview', activeMatch: '/v3/guide/' },
+              { text: 'API手册', link: '/v3/api/overview', activeMatch: '/v3/api/' }
+            ]
+          }
         ]
       }
     ],

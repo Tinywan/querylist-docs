@@ -8,7 +8,7 @@ hero:
   tagline: "优雅的渐进式PHPDOM解析框架，让DOM解析更简单一点。"
   actions:
     - theme: brand
-      text: 入门指南
+      text: 🚀入门指南
       link: /v4/guide/overview
     - theme: alt
       text: 项目地址

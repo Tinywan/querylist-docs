@@ -1,7 +1,7 @@
 # PhantomJS 插件
 
 ---
-- [](#anchor)
+
 
 使用PhantomJSDOM解析JavaScript动态渲染的页面。这个包基于`jonnyw/php-phantomjs`包。
 

@@ -2,7 +2,7 @@
 
 ---
 
-- [](#anchor)
+
 
 Http get插件，用来轻松获取网页。该插件基于`GuzzleHttp`,请求参数与它一致。
 

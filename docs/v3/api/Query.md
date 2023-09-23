@@ -3,7 +3,7 @@
 返回值:`QueryList对象`
 
 ---
-- [](#anchor)
+
 
 Query方法为QueryList唯一的主方法，用静态的方式调用。
 

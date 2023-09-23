@@ -2,7 +2,7 @@
 
 ---
 
-- [](#anchor)
+
 
 使用QueyList只需要编写规则库，然后把规则库传给QueryList的静态方法Query，QueryList就会自动按照规则库把内容全部DOM解析回来了，而规则库是用jQuery选择器来编写的，所以使用QueryList的整个过程非常简单!
 

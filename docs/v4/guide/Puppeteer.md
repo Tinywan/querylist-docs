@@ -1,7 +1,7 @@
 # Puppeteer 插件
 
 ---
-- [](#anchor)
+
 
 使用PuppeteerDOM解析JavaScript动态渲染的页面。使用此插件需要有一定的Node.js基础知识，并且会配置Node运行环境。
 

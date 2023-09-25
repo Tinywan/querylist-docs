@@ -25,7 +25,7 @@ $data = QueryList::get('https://www.baidu.com/s?wd=QueryList', null, [
 print_r($data);
 ```
 
-```php [result]
+```php [output]
   Array
   (
     [0] => Array
@@ -71,7 +71,7 @@ print_r($titles->all());
 print_r($links->all());
 ```
 
-```php [result]
+```php [output]
 Array
 (
     [0] => QueryList|简洁、优雅的PHPDOM解析工具

@@ -6,6 +6,9 @@ hero:
   name: "QueryList"
   text: ""
   tagline: "优雅的渐进式 PHP DOM 解析框架，让DOM解析更简单一点。"
+  image:
+    src: /code.png
+    alt: QueryList
   actions:
     - theme: brand
       text: 🚀入门指南

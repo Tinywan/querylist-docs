@@ -3,6 +3,7 @@ export default {
         {
             text: 'Get Started',
             items: [
+                { text: '速览', link: '/v4/guide/quick-look' },
                 { text: '介绍', link: '/v4/guide/overview' },
                 { text: '示例代码', link: '/v4/guide/example' },
                 { text: '安装', link: '/v4/guide/installation' },

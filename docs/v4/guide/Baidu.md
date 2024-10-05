@@ -65,7 +65,7 @@ $data = $searcher->setHttpOpt([
 - Example-3
 
 ```php
-$baidu = $ql->baidu(3)
+$baidu = $ql->baidu(3);
 $searcher = $baidu->search('QueryList');
 
 $data = $searcher->page(1);
